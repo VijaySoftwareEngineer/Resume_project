@@ -1,0 +1,29 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block content %} 
+<div class="mt-5">
+    <div class="text-center">
+    <img src="{% static 'core/images/men1' %}" alt="ProfilePic" 
+    class="img-thumbnail" width="400px" height="250px">
+    </div>
+<div class="mt-5 text-white mx-5 text-justify">
+    <h1 class="font-weight-bold">Hello,</h1>
+<div class="px-4" style="line-height:2rem;">
+    <p style="text-indent:100px;"> I am <b
+    class="text-warning">Vijay Kumar</b> I have 6 months of development experience. 
+    I offer the technical expertise you are seeking for your web developer position.</p>
+    <p>I recently graduated from DCRUST Sonipat 
+        and completed an internship at 
+        <b class="text-warning">Progcap</b>,
+        During this internship, I learned and worked with Python, 
+        SQL, Data Structures and Algorithms(DSA), Dart, Django and Flutter. 
+        This experience has enhanced my problem-solving skills 
+        and provided me with practical knowledge in various technologies.</p>
+</div>
+</div>
+<div class="text-center">
+    <a href="/core/contact" class="btn btn-primary my-3 mr-5">Hire Me</a>
+    <a href="/core/contact" class="btn btn-primary my-3">Contact</a>    
+</div>
+</div>
+{% endblock content %}
